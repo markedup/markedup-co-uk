@@ -8,3 +8,4 @@ Simple placeholder page for my personal domain, based on some (very old) tried a
 - [ ] Integrate automated deployment service.
 - [ ] Bin jQuery and go with pure ES2015+ for scripted effects.
 - [ ] Add PostCSS to automagically add relevant CSS vendor variations.
+- [ ] Look at integrating [Critters](https://github.com/GoogleChromeLabs/critters) into build process.
