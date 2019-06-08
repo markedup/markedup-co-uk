@@ -1,4 +1,4 @@
-import "./minimal-analytics-snippet";
+import "./styles.css";
 
 const smallest = 350;
 const largest = 800;
