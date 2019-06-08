@@ -9,6 +9,6 @@ Simple placeholder page for my personal domain, based on some (very old) tried a
 - [ ] Update layout to use Flexbox or CSS Grid.
 - [ ] ~Add PostCSS to automagically add relevant CSS vendor variations.~
 - [ ] ~Ensure built static assets are logically organised into discreet, hashed files per type.~
-- [x] Simplify tooling and optimisation with [Parcel|https://parceljs.org/].
-- [x] Integrate [automated deployment service|https://www.netlify.com/].
+- [x] Simplify tooling and optimisation with [Parcel](https://parceljs.org/).
+- [x] Integrate [automated deployment service](https://www.netlify.com/).
 - [ ] Look at integrating [Critters](https://github.com/GoogleChromeLabs/critters) into build process.
