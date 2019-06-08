@@ -1,9 +1,8 @@
-import '../styles/main.scss';
+import "./styles.css";
 
 const smallest = 350;
 const largest = 800;
 const transition = (1 / 60) * (1000 / 350) * 100;
-console.log(transition);
 
 let progress = 0;
 let heading = null;
