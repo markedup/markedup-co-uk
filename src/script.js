@@ -1,7 +1,5 @@
-import "./styles.css";
-
-const smallest = 350;
-const largest = 800;
+const smallest = 7;
+const largest = 13;
 const transition = (1 / 60) * (1000 / 350) * 100;
 
 let progress = 0;
@@ -22,7 +20,7 @@ function w() {
 }
 
 function s() {
-  return `${Math.floor(Math.random() * largest) + smallest}%`;
+  return `${Math.floor(Math.random() * largest) + smallest}vmin`;
 }
 
 function f() {
@@ -47,8 +45,8 @@ function t() {
 
 function fade() {
   progress += transition;
-  heading.style.opacity = progress / 100;
-  if (progress <= 100) {
+  heading.style.opacity = progress / 1000;
+  if (progress <= 1000) {
     window.requestAnimationFrame(fade);
   }
 }
@@ -56,8 +54,8 @@ function fade() {
 function draw() {
   progress = 0;
   heading.style.opacity = progress;
-  for (let i = 0; i < letters.length; i += 1) {
-    const letter = letters.item(i);
+  for (let l = 0; l < letters.length; l += 1) {
+    const letter = letters.item(l);
     const weight = w();
     const size = s();
     const family = f();
@@ -73,7 +71,7 @@ function draw() {
 }
 
 (() => {
-  heading = document.querySelector('article h1');
+  heading = document.querySelector('h1');
   letters = document.getElementsByTagName('b');
   draw();
   setInterval(() => draw(), 3500);
