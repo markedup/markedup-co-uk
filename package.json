@@ -11,6 +11,6 @@
     "markedup-co-uk": "file:"
   },
   "devDependencies": {
-    "parcel": "^2.14.0"
+    "parcel": "^2.16.1"
   }
 }
