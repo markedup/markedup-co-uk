@@ -17,7 +17,7 @@ jobs:
           server: ${{ secrets.SFTP_SERVER }}
           username: ${{ secrets.SFTP_USERNAME }}
           password: ${{ secrets.SFTP_PASSWORD }}
-          server-dir: /public_html/
+          server-dir: www/markedup
           local-dir: ./dist/
           protocol: ftps        # omit only if the host truly has no TLS
           security: strict
